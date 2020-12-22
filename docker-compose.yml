@@ -2,6 +2,7 @@ version: '2'
 
 services:
   openssh-server: 
+    build: .
     image: hackinglab/alpine-openssh-server:3.2
     environment:
     - AUTHOR=e1
